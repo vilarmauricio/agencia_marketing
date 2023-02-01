@@ -1,0 +1,8 @@
+django==3.2.16 # version Django
+django-environ==0.9.0  # Poner claves secretas en variables de ambiente
+django-cors-headers==3.13.0 # Permite la comunicacion entre el Frontend y Backend
+djangorestframework==3.14.0 # Permite la creacion de APis
+Pillow==9.3.0 # Trabajar con imagenes
+django-storages==1.13.1 # Permite guardar imagenes en aws
+django-ckeditor==6.3.2 # Poder crear contenido de manera mas enriquezida
+psycopg2==2.9.5 # PErmite trabajar con PosgresSQL
