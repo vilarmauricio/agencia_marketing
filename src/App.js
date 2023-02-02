@@ -3,7 +3,14 @@ import store from './store'
 import { Provider } from "react-redux";
 
 import Error404 from 'containers/errors/Error404';
-import Home from 'containers/pages/Home'
+import Home from 'containers/pages/Home';
+import Casos from 'containers/pages/Casos';
+import Servicios from 'containers/pages/Servicios';
+import Nosotros from "containers/pages/Nosotros";
+import Carreras from "containers/pages/Carreras";
+import Blog from "containers/pages/Blog";
+import Contacto from "containers/pages/Contacto";
+
 
 function App() {
   return (
@@ -17,6 +24,12 @@ function App() {
 
           {/* Home display */}
           <Route path="/" element={<Home />} />
+          <Route path="/casos" element={<Casos />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/carreras" element={<Carreras />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contacto" element={<Contacto />} />
 
         </Routes>
       </Router>
@@ -26,3 +39,4 @@ function App() {
 }
 
 export default App;
+
